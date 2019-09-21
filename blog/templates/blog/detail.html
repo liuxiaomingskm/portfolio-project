@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.5">
-    <title>Xiaoming Liu</title>
+    <title>{{ blog.title }}</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
 
@@ -35,7 +35,7 @@
   </head>
   <body>
   <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <a class="navbar-brand" href="{% url 'home' %}">Xiaoming Liu</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -58,41 +58,19 @@
   </header>
 
 <main role="main">
+<div class="container">
 
-  <section class="jumbotron text-center">
-    <div class="container">
-      <h1 class="jumbotron-heading">Hi, I'm Xiaoming Liu </h1>
-      <p class="lead text-muted">My mission is to save the world with my diligence and skills! I'm a passionate geek!!! I love my family~ </p>
 
-      <p>
-        <a href="mailto:liuxiaomingskm@gmail.com" class="btn btn-primary my-2">Email Me</a>
+       <h1 class = "text-center pt-3">{{ blog.title }}</h1>
 
-      </p>
-        <img src="{% static 'icon.jpg' %}" height="300" />
-    </div>
-  </section>
+       {{ blog.pub_date_pretty }}
+    <br />
+       <img src ="{{ blog.image.url }}"}  class="img-fluid"/>
+    <br />
+    <br />
+       <p>{{ blog.body }}</p>
 
-  <div class="album py-5 bg-light">
-    <div class="container">
-
-      <div class="row">
-
-        {% for job in jobs.all %}
-        <div class="col-md-4">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" src ="{{ job.image.url }}" alt="我的心肝宝贝！" />
-            <div class="card-body">
-              <p class="card-text">{{ job.summary }} </p>
-
-            </div>
-          </div>
-        </div>
-
-          {% endfor %}
-      </div>
-    </div>
-  </div>
-
+</div>
 </main>
 
 <footer class="text-muted">
@@ -106,4 +84,3 @@
 
   </body>
 </html>
-
