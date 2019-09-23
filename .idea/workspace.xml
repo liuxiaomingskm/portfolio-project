@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1f26e0d-db0d-4eaa-9b74-bf3b0f994e75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f1f26e0d-db0d-4eaa-9b74-bf3b0f994e75" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="82" column="17" lean-forward="true" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="28" />
+            <state relative-caret-position="190">
+              <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="18" />
               <folding>
                 <element signature="e#309#319#0" expanded="true" />
               </folding>
@@ -151,9 +148,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="132" />
-    <option name="y" value="65" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="523" />
+    <option name="y" value="91" />
     <option name="width" value="1548" />
     <option name="height" value="917" />
   </component>
@@ -306,15 +303,15 @@
       <workItem from="1568937407679" duration="21025000" />
       <workItem from="1569025657444" duration="3127000" />
       <workItem from="1569080520115" duration="3550000" />
-      <workItem from="1569088836031" duration="10925000" />
+      <workItem from="1569088836031" duration="11695000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58452000" />
+    <option name="totallyTimeSpent" value="59222000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="132" y="65" width="1548" height="917" extended-state="1" />
+    <frame x="523" y="91" width="1548" height="917" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21409395" />
@@ -526,8 +523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="82" column="17" lean-forward="true" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="28" />
+        <state relative-caret-position="190">
+          <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="18" />
           <folding>
             <element signature="e#309#319#0" expanded="true" />
           </folding>
